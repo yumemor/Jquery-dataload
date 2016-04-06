@@ -6,9 +6,9 @@ html:
 
 ```html
 <form class="loadForm">	
-	<input type="text name='user' data-name='user'>
-	<input type="text name='sex' data-name='sex'>
-	<input type="text name='age' data-name='age'>
+	<input type='text' name='user' data-name='user'>
+	<input type='text' name='sex' data-name='sex'>
+	<input type='text' name='age' data-name='age'>
 </form>
 ```
 javascript
