@@ -15,9 +15,9 @@ javascript
 
 ```javascript
 var data = new Object();
-data.user = 'yy';
+data.user = 'zhangsan';
 data.sex = 'man';
-data.age = 18; 
+data.age = 100; 
 $(".loadForm").dataLoad(data);
 ```
 
