@@ -4,7 +4,7 @@ $.fn.extend({
 			var node = this.find("*[data-name='" + k + "']");
 			if (node.length){
 				var nodeType = node[0].tagName;
-				if(nodeType == "INPUT"){
+				if(nodeType == "INPUT" || nodeType == "SELECT"){
 					node.eq(0).val(data[k]);
 				}else{
 					node.eq(0).text(data[k]);

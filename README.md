@@ -18,7 +18,7 @@ var data = new Object();
 data.user = 'zhangsan';
 data.sex = 'man';
 data.age = 100; 
-$(".loadForm").dataLoad(data);
+$(".loadForm").dataload(data);
 ```
 
 ---
